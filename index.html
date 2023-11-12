@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>LYFIO</title>
+    <link rel="stylesheet" href="stils.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script> 
+        $(function(){
+          $("#header").load("header.html"); 
+          $("#footer").load("footer.html"); 
+          $("#aside").load("aside.html"); 
+
+        });
+    </script> 
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body >
+    <div id="header"></div>
+    <div id="notranjost" >
+        <div class="col-10 col-s-8">
+        
+
+
+        <div id="vprasalnik">
+                <p style="font-size: 40px;">DODAJ NOV VNOS</p>
+            <label for="datum">
+                DATUM: 
+                <input type="date" id="datum" name="datum" >
+              </label>
+              <p></p>
+            <label for="trgovec">
+                TRGATELJ:  
+            <input type="text" id="trgovec" name="trgovec " placeholder="trgatelj" >
+            </label>
+            <p></p>
+            <label for="vsota">
+               VSOTA: 
+                <input type="" id="vsota" name="vsota" placeholder="vsota ">
+              </label>
+              <p></p>
+            <label for="opombe">
+                OPOMBE:
+                <input type="field" id="opombe" name="opombe" contenteditable="true" placeholder="opombe">
+            </label>
+            <p></p>
+            <button id="pocisti">POČISTI</button>
+            <button id="poslji">VNESI</button>
+
+            <div id="statistika">
+                <p id="povprecje">Povprečje</p>
+                <p id="max">Max</p>
+                <p id="min">Min</p>
+                <p>najvec na dan</p>
+            </div>
+
+            <div id="urejanja">
+                <button id="urediMax">UREDI MAX</button>
+                <P></P>
+                <button id="urediMin">UREDI MIN</button>
+            </div>
+
+
+        </div>
+        
+
+
+
+        </div>
+
+        <div id="aside"></div>
+      
+        <div id="tabele"></div>
+        
+        
+        </div>
+        
+
+
+
+      
+        <script src="code.js"></script>
+
+
+       
+
+    </div>
+
+   
+    <div id="footer"></div>
+
+
+   
+    
+
+
+    
+        
+
+
+
+    
+</body>

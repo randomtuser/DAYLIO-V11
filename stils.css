@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #3e7cb1;
+    color: black; 
+    
+  }
+
+
+a{
+    text-decoration:none;
+
+
+}
+nav  {
+    text-decoration:none;
+    font-size:20px;
+    text-align: center;
+    padding-bottom: 0.5% ;
+    padding-top: 0.5% ;
+
+}
+
+
+
+#imeAplikacije{
+    text-decoration:none;
+    font-size:27px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#tabela, #stat, #oProjektu, #imeAplikacije {
+    color: black; 
+    padding-bottom: 10px;
+
+}
+#tabela, #stat, #oProjektu {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+
+}
+
+
+@media only screen and (min-width: 600px) {
+    #imeAplikacije {
+        text-align: left;
+    }
+    #tabela, #stat, #oProjektu, #imeAplikacije{
+        padding-bottom: 0px;
+    }
+}
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: #3e7cb1;
+    color: black; 
+    padding: 1%;
+    clear: both;
+    display: block;
+    margin-top: 100%
+}
+
+
+
+
+tr, th, td, table{
+    margin:  auto;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 1000px;
+    height:  100px;
+
+}
+
+#notranjost{
+    padding-top: 4%;
+
+}
+
+
+body {
+    background-color:  #ccd6e2;
+}   
+
+#besediloOProjektu{
+    text-align: center;
+
+}
+
+
+
+aside{
+    text-align: center;
+    background-color: #3e7cb1;
+    margin-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+.gumbZaDelete{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#vprasalnik{
+    display: block;
+    font-size:30px;
+    padding-left: 2%;
+    padding-bottom: 10%;
+    text-align: left;
+    border:solid 1px #181b1c;
+    background-color: #81a4cd   ;
+    margin:1% 20% 5% 20% ;
+
+
+}
+#poslji{
+    margin-top: 3%;
+    margin-left: 3.5%;
+    background-color: #f37c0e;
+    border: none;
+    color: black;
+    padding: 1.1% 2.5%;
+    text-align: center;
+    display: inline-block;
+    font-size: 50%
+
+}
+#pocisti{
+    margin-top: 4%;
+    margin-left: 0.5%;
+    background-color: #f37c0e;
+    border: none;
+    color: black;
+    padding: 1% 2%;
+    text-align: center;
+    display: inline-block;
+    font-size: 50%
+}
+
+#urediMin, #urediMax{
+    margin-top: 4%;
+    margin-left: 0.5%;
+    background-color: #f37c0e;
+    border: none;
+    color: black;
+    padding: 1% 4%;
+    text-align: center;
+    display: inline-block;
+    font-size: 70%
+}
+
+
+#statistika{
+    display: block;
+    margin-left: 60% ;
+    margin-top: -23%;
+    border:solid 1px #181b1c;
+    margin-right: 8%;
+    padding: 1% 1% 1% 1%;
+
+    
+}
+
+#tabele{
+    margin:  left;
+    text-align: center;
+    margin-top: 30%;
+
+}
+
+#urejanja{
+    display: block;
+    margin-left: 65% ;
+    padding: 1% 1% 1% 1%;         
+
+}
+
+
+
+.row::after {   /*da footer ne pobegne na neko drugo prosto mesto*/
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+
+[class*="col-"] {
+    float: left;
+  }
+
+  .col-1 { width: 100%; }
+  .col-2 { width: 100%; }
+  .col-3 { width: 100%; }
+  .col-4 { width: 100%; }
+  .col-5 { width: 100%; }
+  .col-6 { width: 100%; }
+  .col-7 { width: 100%; }
+  .col-8 { width: 100%; }
+  .col-9 { width: 100%; }
+  .col-10 { width: 100%; }
+  .col-11 { width: 100%; }
+  .col-12 { width: 100%; }
+  
+  
+  @media only screen and (min-width: 992px)  {
+  .col-1 { width: 8.33%; }
+  .col-2 { width: 16.66%; }
+  .col-3 { width: 25%; }
+  .col-4 { width: 33.33%; }
+  .col-5 { width: 41.66%; }
+  .col-6 { width: 50%; }
+  .col-7 { width: 58.33%; }
+  .col-8 { width: 66.66%; }
+  .col-9 { width: 75%; }
+  .col-10 { width: 83.33%; }
+  .col-11 { width: 91.66%; }
+  .col-12 { width: 100%; }
+  
+
+
+
+
+  }
+  @media only screen and (min-width:600px) and (max-width:992px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  img, video, canvas {
+    max-width: 100%;
+    height: auto;
+    }
+    
+  
+  svg{
+    max-width: 100%;
+    height: auto;
+  }
